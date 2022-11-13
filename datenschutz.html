@@ -11,6 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="/style/share-btn.css" />
+    <script
+      src="https://kit.fontawesome.com/58794a41b6.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Datenschutz&shy;erkl&auml;rung</title>
   </head>
   <body>
@@ -490,13 +495,36 @@
     </main>
     <footer class="nav-footer">
       <div class="data">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+        <a class="footer-a" href="impressum.html">Impressum</a>
+        <a class="footer-a" href="datenschutz.html">Datenschutz</a>
       </div>
       <div class="footer-p">rebendahl © 2022. All Rights Reserved.</div>
-      <div class="data">
-        <a href="mailto:info@rebendahl.de">Kontakt me</a>
+
+      <!-- <a href="mailto:info@rebendahl.de">Kontakt me</a> -->
+      <div class="wrapper">
+        <button class="btn">
+          <i class="icons fa fa-share-alt"></i>
+        </button>
+        <ul class="list">
+          <li class="item">
+            <a href="#" class="link">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+
+          <li class="item">
+            <a href="#" class="link">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
+    <script src="/script/btn.js"></script>
   </body>
 </html>
