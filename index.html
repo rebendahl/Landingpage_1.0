@@ -19,23 +19,41 @@
     <title>rebendahl</title>
   </head>
   <body>
-    <header>
-      <nav class="nav-header">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li style="float: right">
-            <a href="blog.rebendahl.de">Blog</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <!-- =====Navigation===== -->
+
+    <nav class="nav-header">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li style="float: right">
+          <a href="http://blog.rebendahl.de">Blog</a>
+        </li> -->
+      </ul>
+    </nav>
+
+    <!-- ===== content ===== -->
+
     <main>
-      <h1>Willkommen auf rebendahl.de</h1>
+      <div class="start">
+        <div class="start-text">
+          Hi, i'm Bernd. <br />
+          A Web Developer <br />
+          Based in Wuppertal <br />
+        </div>
+        <img
+          class="start-img"
+          src="/img/code HTML  Sashkin, Adobe Stock.avif"
+          alt="Profil"
+        />
+      </div>
+      <div class="placeholder"></div>
       <div class="aboutme" id="about">
         <h1>About me</h1>
       </div>
     </main>
+
+    <!-- ===== Footer ===== -->
+
     <footer class="nav-footer">
       <div class="data">
         <a class="footer-a" href="impressum.html">Impressum</a>
@@ -43,31 +61,35 @@
       </div>
       <div class="footer-p">rebendahl © 2022. All Rights Reserved.</div>
 
-      <!-- <a href="mailto:info@rebendahl.de">Kontakt me</a> -->
+      <!-- ===== SocialIconMenu ===== -->
+
       <div class="wrapper">
         <button class="btn">
           <i class="icons fa fa-share-alt"></i>
         </button>
         <ul class="list">
           <li class="item">
-            <a href="#" class="link">
-              <i class="fa fa-facebook"></i>
+            <a href="https://instagram.com" class="link">
+              <i class="fa fa-instagram"></i>
             </a>
           </li>
           <li class="item">
-            <a href="#" class="link">
-              <i class="fa fa-instagram"></i>
+            <a href="https://github.com/rebendahl" class="link">
+              <i class="fa fa-github"></i>
             </a>
           </li>
 
           <li class="item">
-            <a href="#" class="link">
-              <i class="fa fa-twitter"></i>
+            <a href="mailto:info@rebendahl.de" class="link">
+              <i class="fa fa-message"></i>
             </a>
           </li>
         </ul>
       </div>
     </footer>
+
+    <!-- ===== JavaScript ===== -->
+
     <script src="/script/btn.js"></script>
   </body>
 </html>

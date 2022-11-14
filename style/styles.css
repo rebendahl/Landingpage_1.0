@@ -30,19 +30,39 @@ li a:hover {
   background-color: #262626;
 }
 
-header {
-  margin-top: 50px;
-}
 main {
   margin: 5% 10%;
+}
+
+.start {
+  position: relative;
+  padding: 5%;
+  /* background-color: #bb935c; */
+  height: 700px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.start-img {
+  width: 50%;
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.placeholder {
+  position: relative;
+  height: 50px;
+  background-color: #161616;
+}
+
+.aboutme {
+  position: relative;
+  padding: 15px;
+  /* background-color: #bb935c; */
+  height: 700px;
   margin-bottom: 100px;
 }
-
-a {
-  text-decoration: none;
-  color: #ccc;
-}
-
 .footer-a {
   padding: 10px;
 }
@@ -54,12 +74,11 @@ a {
 .data {
   padding: 2%;
   width: 20%;
-  text-decoration: none;
 }
 
 .data a {
   text-decoration: none;
-  color: #fff;
+  color: #ccc;
 }
 
 .nav-footer {
@@ -68,15 +87,17 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
-
   background-color: #333;
 }
 
 .nav-header {
+  z-index: 5;
   position: fixed;
   top: 0;
   width: 100%;
 }
+
+/* =====SolzialIconMenu===== */
 
 .wrapper {
   position: relative;
@@ -89,8 +110,8 @@ a {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: #fff;
-  color: #151515;
+  background-color: #262626;
+  color: #ccc;
   border-radius: 50%;
 }
 .btn {
@@ -125,4 +146,25 @@ a {
 }
 .wrapper.active .item:nth-child(3) {
   transform: translateX(65px);
+}
+
+/* ===== Scrollbar===== */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #262626;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
